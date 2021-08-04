@@ -15,11 +15,11 @@ Each of which are multiplied by:
 
 A dot product is then applied to the weight and input vectors to produce the **logit**. Example;
 
-![Logit](.\images\Logit.png)
+<img src=".\images\Logit.png" />
 
 In most cases a **logit** also includes a **bias**, `b`. Producing a final equation:
 
-![Logit2](.\images\Logit2.png)
+<img src=".\images\Logit2.png"/>
 
 ---
 
@@ -66,7 +66,7 @@ There are 3 basic neurons that can be used.
 
 The sigmoid function is below and produces an s shape:
 
-<img src="C:\Users\bjhow\Desktop\Machine Learning\Fundamentals-of-Deep-Learning\images\sigmoid-f.png" style="zoom:75%;" />
+<img src=".\images\sigmoid-f.png" />
 
 The function transforms the input from, **x** in [-1, 1] to **S(x)** in [0, 1].
 
@@ -102,6 +102,6 @@ Therefore, the **SoftMax Layer** is unlike other layers, as the output is determ
 
 The formula can be seen below:
 
-![SoftMax-f](.\images\SoftMax-f.png)
+<img src=".\images\SoftMax-f.png"/>
 
 **This generates a strong prediction being an output in a vector being close to 1.** If multiple outputs in the vector have **similarly high strengths then the prediction is weak**.
