@@ -1,6 +1,10 @@
 # 	Fundamentals-of-Deep-Learning
 Here is where I document my learning of Deep Learning.
 
+- [Multilayer Perceptrons](./MLP)
+
+
+
 ---
 
 ## The Neuron
