@@ -20,7 +20,7 @@ In order to find the minimum error rate, E, we can visualise the squared error a
 
 If we have a linear neuron, with two inputs w1 and w2 we can visualise the a 3D space with error rate as z, w1 as x, and w2 as y. This would produce a quadratic error surface for a linear neuron. 
 
- <img src="images/gradient-descent-1.png" alt="gradient-descent-1" style="zoom:20%" />
+ <img src="images/gradient-descent-1.png" alt="gradient-descent-1" width=500 />
 
 **Since we can visualise finding the minimum error rate as graph, we can find the smallest Error rate by finding the global minima.** 
 
