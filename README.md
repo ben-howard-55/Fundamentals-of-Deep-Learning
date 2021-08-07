@@ -2,6 +2,7 @@
 Here is where I document my learning of Deep Learning.
 
 - [Multilayer Perceptrons](./MLP)
+  - [Binary - Ionosphere Dataset](./MLP/MLP_Binary.ipynb)
 
 
 
