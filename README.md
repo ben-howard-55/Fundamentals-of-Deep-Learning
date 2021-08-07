@@ -1,6 +1,7 @@
 # 	Fundamentals-of-Deep-Learning
 Here is where I document my learning of Deep Learning.
 
+- [Training theory](./Training.md)
 - [Multilayer Perceptrons](./MLP)
   - [Binary - Ionosphere Dataset](./MLP/MLP_Binary.ipynb)
 
