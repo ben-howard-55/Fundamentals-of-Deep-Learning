@@ -4,8 +4,7 @@ Here is where I document my learning of Deep Learning.
 - [Training theory](./Training.md)
 - [Multilayer Perceptrons](./MLP)
   - [Binary - Ionosphere Dataset](./MLP/MLP_Binary.ipynb)
-
-
+  - [Multiclass - Iris Dataset](.MLP/MLP_Multiclass_Classification.ipynb)
 
 ---
 
