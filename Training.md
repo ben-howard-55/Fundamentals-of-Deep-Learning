@@ -22,9 +22,9 @@ If we have a linear neuron, with two inputs w1 and w2 we can visualise the a 3D 
 
  <img src="images/gradient-descent-1.png" alt="gradient-descent-1" width=500 />
 
-**Since we can visualise finding the minimum error rate as graph, we can find the smallest Error rate by finding the global minima.** 
+**Since we can visualize finding the minimum error rate as graph, we can find the smallest Error rate by finding the global minima.** 
 
-1. When initialising the weights of a problem we set the weights we can randomly set weights.
+1. When initializing the weights of a problem we set the weights we can randomly set weights.
 
 Then:
 
@@ -49,13 +49,25 @@ However, if the graph is "mellow" or the learning rate is too small, then traini
 
 At each iteration we want to calculate how to change each weight, this is the **Delta Rule**. 
 
-*(will not be going into the math here, essentially just Partial Differentiation Equations in relation to the Error rate, Learning rate, neuron inputs etc...)*
+*Partial Differentiation Equations in relation to the Error rate, Learning rate, neuron inputs are used to find the Delta.* 
 
 ---
 
-## Back-propagation Algorithm
+## Backpropagation Algorithm
+
+Backpropagation is the technique of finding the `error derivatives` of hidden layers, by using the activity and error derivatives of the neurons connected in the layer above.
+
+<img src="images/backpropagation.jpeg" alt="gradient-descent-1" width=500 />
+
+This is done by accumulating information of how outputs of a neuron in layer `i` (below), affects the logits of all neurons in layer `j` (above).
+
+Dynamic programming is used to produce a table of partial derivatives of the error function with respect to the hidden layers activity, we can determine how to modify hidden weights for gradient descent.
+
+*This is done for all training examples (batches) in the training set.*
 
 ## Stochastic and Mini-batch Gradient Descent
+
+
 
 ## Overfitting
 
